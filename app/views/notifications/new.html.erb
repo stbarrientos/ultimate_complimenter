@@ -1,0 +1,6 @@
+<h2>Need A Compliment?</h2>
+
+<%= form_tag("/notifications", method: "post") do %>
+	<%= text_field_tag(:to_number) %>
+  <%= submit_tag("Send") %>
+<% end %>
