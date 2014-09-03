@@ -17,4 +17,5 @@
 
 # Ignore the secrets.yml file
 /config/secrets.yml
+/credentials.rb
 

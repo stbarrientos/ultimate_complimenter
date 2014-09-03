@@ -1,4 +1,5 @@
 require 'twilio-ruby'
+require_relative "../config/secrets"
 
 class Notification
   attr_accessor :to_number
